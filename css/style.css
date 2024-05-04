@@ -1,0 +1,37 @@
+body{
+    background: #F6F193;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.quantity_counter{
+    width: 330px;
+    height: 150px;
+    background: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 50px;
+    box-shadow: 0 4px 8px rgba(201, 5, 240, 0.924);
+}
+.number{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}
+.add{
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    outline: auto;
+}
+.remove{
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    outline: auto;
+}
